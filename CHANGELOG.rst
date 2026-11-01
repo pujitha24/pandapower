@@ -3,6 +3,7 @@ Change Log
 
 [upcoming 4.0.0] - 2026-..-..
 -------------------------------
+- [FIXED] get_element_limits now reads the N-1 loading limit from "max_loading_percent_nminus1" (as run_contingency does), keeping "max_loading_nminus1_percent" as fallback
 - [FIXED] docstrings of detect_power_station_unit and elements_on_path now match their parameters
 - [CHANGED] ran ruff format for whole project
 - [CHANGED] moved test module to top level
